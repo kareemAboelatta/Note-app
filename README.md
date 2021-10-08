@@ -1,4 +1,4 @@
 # Note-app
-this app for small notes
- Room database
- MVVM 
+this app for small notes,
+Room database
+MVVM 
