@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    app:cardBackgroundColor="@color/colorAccent"
+    android:id="@+id/card"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:padding="8dp">
+
+
+        <TextView
+        android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Title"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />/>
+
+    <TextView
+        android:id="@+id/textView_not_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_title"
+        android:textColor="@android:color/white"
+        android:text="11:20"
+        />
+
+    <TextView
+        android:id="@+id/textView_note_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11/11/2020"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/textview_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="3dp"
+        />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
